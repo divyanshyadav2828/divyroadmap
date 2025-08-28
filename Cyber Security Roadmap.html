@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cybersecurity Expert Roadmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #e2e8f0;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .accent-glow {
+            box-shadow: 0 0 15px rgba(52, 211, 153, 0.3), 0 0 5px rgba(52, 211, 153, 0.2);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 glass-card border-b border-emerald-500/20">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="font-bold text-xl text-emerald-400">Cyber Expert Path</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#roadmap" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Roadmap</a>
+                        <a href="#resources" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Free Resources</a>
+                        <a href="#competitions" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Competitions</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <!-- Hero Section -->
+        <section class="text-center my-16">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+                <span class="block">Your Complete Roadmap to</span>
+                <span class="block text-emerald-400">Cybersecurity Mastery</span>
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-400">
+                From Grade 11 to 12, this is your comprehensive guide. Follow this path with dedication to build a powerful skill set and become a formidable expert in the field.
+            </p>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section id="roadmap" class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-12 flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400"><path d="M18 6.1a2.1 2.1 0 1 0-2.2 2.2L12 12l-4.2-4.2a2.1 2.1 0 1 0-3.1 0l-1.4 1.4a2.1 2.1 0 1 0 3.1 0L12 12l4.2 4.2a2.1 2.1 0 1 0 3.1 0l1.4-1.4a2.1 2.1 0 1 0-3.1 0L12 12l4.2-4.2Z"/></svg>
+                The Roadmap
+            </h2>
+            <div class="space-y-16">
+                <!-- Phase 1 -->
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-emerald-400">Phase 1: Grade 11 (Current Semester) - Building the Foundation</h3>
+                    <p class="text-slate-400 mt-2">Understand how computers and networks work before you learn to break or defend them.</p>
+                    <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Master Computer Fundamentals</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Hardware: CPU, RAM, HDD, NIC</li>
+                                <li>OS: Windows (File System, UAC, Registry) & Linux (Command Line)</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Learn to Code: Python</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Basics: Variables, Loops, Functions</li>
+                                <li>File I/O, Data Structures (Lists, Dictionaries)</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Understand Networking</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>OSI & TCP/IP Models</li>
+                                <li>IP Addresses (v4/v6), Subnetting</li>
+                                <li>Core Protocols: TCP, UDP, HTTP, DNS</li>
+                                <li>Tool: Wireshark</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 2 -->
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-emerald-400">Phase 2: Summer Break - Hands-On Hacking</h3>
+                    <p class="text-slate-400 mt-2">Apply your knowledge in a safe, virtual lab environment.</p>
+                    <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Build Your Hacking Lab</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>VirtualBox/VMware</li>
+                                <li>Attacker VM: Kali Linux</li>
+                                <li>Victim VMs: Metasploitable 2, OWASP BWA</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Ethical Hacking Concepts</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>5 Phases of Hacking</li>
+                                <li>Web Security: OWASP Top 10 (SQLi, XSS)</li>
+                                <li>Platforms: TryHackMe, Hack The Box</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Learn Bash Scripting</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Automate tasks in the Linux terminal</li>
+                                <li>A crucial time-saving skill</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 3 -->
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-emerald-400">Phase 3: Grade 12 (First Semester) - Specializing & Deepening Skills</h3>
+                    <p class="text-slate-400 mt-2">Go deeper into specific, high-impact areas and start thinking about certifications.</p>
+                     <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Advanced Security</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Firewalls, IDS/IPS, VPNs</li>
+                                <li>Cryptography: Encryption, Hashing</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Master Hacking Tools</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Nmap (Network Scanning)</li>
+                                <li>Metasploit (Exploitation)</li>
+                                <li>Burp Suite (Web App Testing)</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Study for Certifications</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>CompTIA Security+</li>
+                                <li>eJPT (eLearnSecurity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 4 -->
+                <div class="glass-card rounded-xl p-8 accent-glow">
+                    <h3 class="text-2xl font-bold text-emerald-400">Phase 4: Grade 12 (Final Semester) - Consolidation & Future Planning</h3>
+                    <p class="text-slate-400 mt-2">Prove your skills, build a portfolio, and prepare for the next step.</p>
+                     <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Compete in CTFs</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Test your skills in competitions</li>
+                                <li>Platforms: CTFtime, PicoCTF</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Explore Advanced Topics</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Malware Analysis</li>
+                                <li>Digital Forensics</li>
+                                <li>Cloud Security</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Build Your Portfolio</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>GitHub for scripts & write-ups</li>
+                                <li>Professional LinkedIn Profile</li>
+                                <li>Plan for College/University</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-12 flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                Best Free Learning Resources
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Resource Card -->
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-emerald-400">Professor Messer's Courses</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">YouTube courses for CompTIA A+, Network+, and Security+. The gold standard for foundational knowledge.</p>
+                    <a href="https://www.youtube.com/user/professormesser" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-emerald-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-emerald-500 transition-colors">Visit Channel</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-emerald-400">TryHackMe</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">The best platform for beginners. Guided, hands-on labs to learn and practice ethical hacking skills.</p>
+                    <a href="https://tryhackme.com/" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-emerald-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-emerald-500 transition-colors">Visit Site</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-emerald-400">OverTheWire</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">Wargames to learn security concepts by doing. Start with the 'Bandit' game to master the Linux command line.</p>
+                    <a href="https://overthewire.org/wargames/" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-emerald-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-emerald-500 transition-colors">Visit Site</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-emerald-400">PortSwigger Web Security Academy</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">The ultimate free resource for learning web application security from the creators of Burp Suite.</p>
+                    <a href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-emerald-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-emerald-500 transition-colors">Visit Academy</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-emerald-400">freeCodeCamp.org</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">Offers comprehensive, multi-hour video courses on Python, networking, and more on their YouTube channel.</p>
+                    <a href="https://www.youtube.com/c/freecodecamp" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-emerald-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-emerald-500 transition-colors">Visit Channel</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-emerald-400">HackerSploit</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">YouTube channel with excellent tutorials on penetration testing tools and techniques.</p>
+                    <a href="https://www.youtube.com/c/HackerSploit" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-emerald-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-emerald-500 transition-colors">Visit Channel</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competitions Section -->
+        <section id="competitions" class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-12 flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400"><path d="M12 8V4H8"/><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M12 12h.01"/><path d="M16 12h.01"/><path d="M12 16h.01"/><path d="M8 12h.01"/><path d="M8 16h.01"/><path d="M16 16h.01"/></svg>
+                Competitions & Showcasing
+            </h2>
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- CTFs -->
+                <div class="glass-card rounded-xl p-8 space-y-4">
+                    <h3 class="text-xl font-bold text-emerald-400">1. Capture The Flag (CTF)</h3>
+                    <p class="text-slate-400">Practice in a competitive, legal environment.</p>
+                    <div>
+                        <h4 class="font-semibold">For Beginners:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>PicoCTF</li>
+                            <li>OverTheWire</li>
+                            <li>CTFlearn</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Ongoing Competition:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>CTFtime.org (Calendar)</li>
+                            <li>Hack The Box</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Hackathons & Bug Bounties -->
+                <div class="glass-card rounded-xl p-8 space-y-4">
+                    <h3 class="text-xl font-bold text-emerald-400">2. Hackathons & Bug Bounties</h3>
+                    <p class="text-slate-400">Gain real-world experience and build your resume.</p>
+                    <div>
+                        <h4 class="font-semibold">Hackathon Platforms:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>Devpost, Devfolio, Unstop</li>
+                            <li>Government Initiatives (e.g., KAVACH)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Bug Bounty Platforms:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>HackerOne</li>
+                            <li>Bugcrowd</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Portfolio -->
+                <div class="glass-card rounded-xl p-8 space-y-4">
+                    <h3 class="text-xl font-bold text-emerald-400">3. Building Your Portfolio</h3>
+                    <p class="text-slate-400">Show the world what you know.</p>
+                    <div>
+                        <h4 class="font-semibold">Essential Platforms:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li><span class="font-bold">GitHub:</span> For code, scripts, and CTF write-ups.</li>
+                            <li><span class="font-bold">LinkedIn:</span> For professional networking.</li>
+                            <li><span class="font-bold">Personal Blog:</span> (Medium, GitHub Pages) to demonstrate passion.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900/50">
+        <div class="container mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center text-slate-400">
+            <p>&copy; 2024 Your Cybersecurity Journey. Stay curious, stay ethical.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
