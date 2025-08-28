@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Game Development Roadmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark blue-gray background */
+            color: #c9d1d9; /* Light gray text */
+        }
+        .glass-card {
+            background: rgba(31, 41, 55, 0.2); /* Semi-transparent dark blue */
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .accent-glow {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4), 0 0 8px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 glass-card border-b border-blue-500/20">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="font-bold text-xl text-blue-400">Game Dev Quest</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#roadmap" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Roadmap</a>
+                        <a href="#resources" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Free Resources</a>
+                        <a href="#jams" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Game Jams</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <!-- Hero Section -->
+        <section class="text-center my-16">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+                <span class="block">Your Epic Journey to</span>
+                <span class="block text-blue-400">Game Development Mastery</span>
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-400">
+                This is your complete guide to becoming a game developer. Follow this path to forge your skills, build amazing worlds, and bring your game ideas to life.
+            </p>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section id="roadmap" class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-12 flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                The Developer's Roadmap
+            </h2>
+            <div class="space-y-16">
+                <!-- Phase 1 -->
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-blue-400">Phase 1: The Foundation - Learning the Language of Games</h3>
+                    <p class="text-slate-400 mt-2">Before building worlds, you must learn the fundamentals of code and logic.</p>
+                    <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Pick Your First Language</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li><b>C#:</b> For the Unity Engine. Great for beginners, versatile.</li>
+                                <li><b>C++:</b> For the Unreal Engine. More complex, but powerful for AAA games.</li>
+                                <li><b>GDScript:</b> For Godot. Python-like syntax, very easy to learn.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Master Programming Basics</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Variables, Data Types, Conditionals</li>
+                                <li>Loops (For, While) & Functions</li>
+                                <li>Object-Oriented Programming (OOP)</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Essential Math & Logic</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Basic Algebra & Trigonometry</li>
+                                <li>Vector Math (Positions, Directions)</li>
+                                <li>Problem Solving & Algorithmic Thinking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 2 -->
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-blue-400">Phase 2: The Engine Room - Choosing Your Tools</h4>
+                    <p class="text-slate-400 mt-2">Learn to use a game engine, the powerful software where games are built.</p>
+                    <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Choose a Game Engine</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li><b>Unity:</b> Industry standard for indie and mobile games.</li>
+                                <li><b>Unreal Engine:</b> Known for stunning graphics and AAA titles.</li>
+                                <li><b>Godot:</b> Free, open-source, and rapidly growing in popularity.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Learn Engine Fundamentals</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>The Editor Interface & Scene View</li>
+                                <li>GameObjects, Components, Transforms</li>
+                                <li>Physics (Collisions, Rigidbodies) & Input</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Version Control with Git</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Learn Git basics (Commit, Push, Pull)</li>
+                                <li>Use GitHub or GitLab to save your projects</li>
+                                <li>Crucial for collaboration and backups</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 3 -->
+                <div class="glass-card rounded-xl p-8">
+                    <h3 class="text-2xl font-bold text-blue-400">Phase 3: The First Creation - Building a Simple Game</h4>
+                    <p class="text-slate-400 mt-2">Apply your skills by creating your first complete, albeit small, game from scratch.</p>
+                     <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Recreate a Classic</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Pong, Breakout, or Pac-Man</li>
+                                <li>Focus on core mechanics: movement, scoring, winning/losing.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Understand the Game Loop</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Input -> Update -> Render</li>
+                                <li>Learn about frame rates and `DeltaTime`</li>
+                                <li>Manage game states (Menu, Playing, Game Over)</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Art & Sound Basics</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Use free assets (Kenney.nl, OpenGameArt)</li>
+                                <li>Learn basic 2D sprite or 3D model integration</li>
+                                <li>Add simple sound effects and music</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Phase 4 -->
+                <div class="glass-card rounded-xl p-8 accent-glow">
+                    <h3 class="text-2xl font-bold text-blue-400">Phase 4: The Specialization - Honing Your Craft</h4>
+                    <p class="text-slate-400 mt-2">Level up by creating more complex projects and finding your passion.</p>
+                     <div class="mt-6 grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">1. Join a Game Jam</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Build a game in a weekend (e.g., Ludum Dare)</li>
+                                <li>The best way to learn to finish projects</li>
+                                <li>Collaborate with others</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">2. Explore a Specialization</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Gameplay Programming</li>
+                                <li>Graphics & Shaders</li>
+                                <li>AI for NPCs</li>
+                                <li>UI/UX Design</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-900/50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-lg">3. Build Your Portfolio</h4>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-slate-300">
+                                <li>Create an Itch.io page for your games</li>
+                                <li>Keep your GitHub updated</li>
+                                <li>Record gameplay videos and GIFs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-12 flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                Best Free Learning Resources
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Resource Card -->
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-blue-400">Unity Learn</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">Official high-quality tutorials and courses from the creators of Unity. The best place to start for Unity developers.</p>
+                    <a href="https://learn.unity.com/" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-blue-500 transition-colors">Visit Site</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-blue-400">Unreal Online Learning</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">The official learning platform for Unreal Engine, offering guided paths from beginner to advanced topics.</p>
+                    <a href="https://www.unrealengine.com/en-US/onlinelearning-courses" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-blue-500 transition-colors">Visit Site</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-blue-400">Brackeys (YouTube Archive)</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">An incredible archive of high-quality, beginner-friendly Unity tutorials. A must-watch for any aspiring game dev.</p>
+                    <a href="https://www.youtube.com/c/Brackeys" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-blue-500 transition-colors">Visit Channel</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-blue-400">Game Developers Conference (GDC)</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">YouTube channel with thousands of free talks from professional game developers on every topic imaginable.</p>
+                    <a href="https://www.youtube.com/c/gdconf" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-blue-500 transition-colors">Visit Channel</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-blue-400">Kenney.nl Assets</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">A massive collection of high-quality, free-to-use game assets (sprites, 3D models, UI) to get your projects started.</p>
+                    <a href="https://www.kenney.nl/" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-blue-500 transition-colors">Visit Site</a>
+                </div>
+                <div class="glass-card rounded-lg p-6 flex flex-col">
+                    <h4 class="font-bold text-lg text-blue-400">r/gamedev</h4>
+                    <p class="text-slate-400 mt-2 flex-grow">A huge Reddit community for game developers of all skill levels. Great for asking questions and getting feedback.</p>
+                    <a href="https://www.reddit.com/r/gamedev/" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-md text-center hover:bg-blue-500 transition-colors">Visit Community</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competitions Section -->
+        <section id="jams" class="my-24">
+            <h2 class="text-3xl font-bold text-center mb-12 flex items-center justify-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400"><path d="M12 8V4H8"/><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M12 12h.01"/><path d="M16 12h.01"/><path d="M12 16h.01"/><path d="M8 12h.01"/><path d="M8 16h.01"/><path d="M16 16h.01"/></svg>
+                Game Jams & Showcasing
+            </h2>
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- CTFs -->
+                <div class="glass-card rounded-xl p-8 space-y-4">
+                    <h3 class="text-xl font-bold text-blue-400">1. Game Jams</h3>
+                    <p class="text-slate-400">The ultimate learning experience. Make a game in a short time based on a theme.</p>
+                    <div>
+                        <h4 class="font-semibold">Major Jams:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>Ludum Dare</li>
+                            <li>Global Game Jam</li>
+                            <li>Brackeys Game Jam</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Where to Find More:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>Itch.io Jam Calendar</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Hackathons & Bug Bounties -->
+                <div class="glass-card rounded-xl p-8 space-y-4">
+                    <h3 class="text-xl font-bold text-blue-400">2. Building Your Portfolio</h4>
+                    <p class="text-slate-400">Showcase your finished projects to the world and potential employers.</p>
+                    <div>
+                        <h4 class="font-semibold">Essential Platforms:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                             <li><span class="font-bold">Itch.io:</span> Publish your games here for people to play.</li>
+                            <li><span class="font-bold">GitHub:</span> Host your source code and collaborate.</li>
+                            <li><span class="font-bold">ArtStation/Sketchfab:</span> If you specialize in art/3D modeling.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Portfolio -->
+                <div class="glass-card rounded-xl p-8 space-y-4">
+                    <h3 class="text-xl font-bold text-blue-400">3. Engaging with the Community</h3>
+                    <p class="text-slate-400">Learning is a marathon, not a sprint. Stay motivated by connecting with others.</p>
+                    <div>
+                        <h4 class="font-semibold">Get Involved:</h4>
+                        <ul class="list-disc list-inside text-slate-300">
+                            <li>Follow devs on Twitter/X</li>
+                            <li>Join Discord servers for your favorite engines</li>
+                            <li>Share your progress with #gamedev hashtags</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900/50">
+        <div class="container mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center text-slate-400">
+            <p>&copy; 2024 Your Game Dev Quest. Keep creating, keep learning.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
